@@ -4,12 +4,11 @@
 
 
 /**
- * Main : Entry point of the program.
- * Initializes the application and starts the execution.
- * Return : Always 0 (Success)
+ * This program generates a random number and prints whether it is positive, negative, or zero.
+ * It returns 0 to indicate successful execution.
  */
 
-int main(void)
+int main(voi)
 {
 	int n;
 
