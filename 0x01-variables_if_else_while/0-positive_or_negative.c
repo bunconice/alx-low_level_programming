@@ -4,8 +4,9 @@
 
 
 /**
- * Initial description: This program generates a random number and prints whether it is +, -, or 0.
- * Function  Main - Entry point of the program
+ * Initial description: This program generates a random number and prints
+ * whether it is positive, negative, or zero.
+ * function  main : Entry point of the program.
  * Return: It returns 0 to indicate successful execution.
  */
 
