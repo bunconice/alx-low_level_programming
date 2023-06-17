@@ -4,8 +4,10 @@
 
 
 /**
- * This program generates a random number and prints whether it is positive, negative, or zero.
- * It returns 0 to indicate successful execution.
+ * This program generates a random number and
+ * prints whether it is positive, negative, or zero.
+ * Main - Entry point
+ * Return: It returns 0 to indicate successful execution.
  */
 
 int main(void)
