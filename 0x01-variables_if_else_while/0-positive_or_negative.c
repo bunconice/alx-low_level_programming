@@ -10,7 +10,7 @@
  * whether it is positive, negative, or zero.
  */
 /*
- * main : Entry point of the program
+ * main - Entry point of the program
  * Return: It returns 0 to indicate successful execution.
  */
 
