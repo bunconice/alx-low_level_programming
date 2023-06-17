@@ -11,9 +11,9 @@
  */
 /*
  * main - Entry point of the program
+ * assign a random number to the variable 'n' and determines if it is positive, negative, or zero
  * Return: It returns 0 to indicate successful execution.
  */
-
 int main(void)
 {
 	int n;
