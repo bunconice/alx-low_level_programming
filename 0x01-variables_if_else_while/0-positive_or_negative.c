@@ -10,7 +10,7 @@
  * whether it is positive, negative, or zero.
  */
 /**
- * main -  assign a random number to the variable 'n' 
+ * main - assign a random number to the variable 'n'
  * and determines if it is positive, negative, or zero
  * Return: It returns 0 to indicate successful execution.
  */
