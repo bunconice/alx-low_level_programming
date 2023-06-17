@@ -3,11 +3,16 @@
 #include <stdio.h>
 
 
-/**
-   *Initial description: This program generates a random number
-   *main : Entry point of the program.
-   *Return: It returns 0 to indicate successful execution.
-   */
+/*
+ * File: 0-positive_or_negative.c
+ * Author: Bunm
+ * Description: This program generates a random number and prints
+ * whether it is positive, negative, or zero.
+ */
+/*
+ * main : Entry point of the program
+ * Return: It returns 0 to indicate successful execution.
+ */
 
 int main(void)
 {
