@@ -8,7 +8,7 @@
  * It returns 0 to indicate successful execution.
  */
 
-int main(voi)
+int main(void)
 {
 	int n;
 
