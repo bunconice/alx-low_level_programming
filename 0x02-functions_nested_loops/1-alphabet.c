@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - Entry point, prints alphabet in lower case,
  * followed by a new line
