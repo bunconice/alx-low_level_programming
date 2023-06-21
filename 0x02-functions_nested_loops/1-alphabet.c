@@ -19,8 +19,8 @@ void print_alphabet(void)
 }
 
 
-int main(){
-	print_alphabet();
-	
-	return(0);
+int main(void)
+{
+	print_alphabet();	
+	return (0);
 }
