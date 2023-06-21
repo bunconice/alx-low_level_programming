@@ -5,22 +5,19 @@
  * followed by a new line
  * Return : always 0
  */
-void print_alphabet(void)
-{
-    char letter;
-    letter = 'a';
-    
-    while(letter <= 'z')
-    {
-        _putchar(letter);
-        letter++;
-    } 
-    _putchar('\n');
-}
-
-
 int main(void)
 {
-	print_alphabet();	
+	print_alphabet();
 	return (0);
+}
+
+void print_alphabet(void)
+{
+	char alpha;
+	for(alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		_putchar(alpha);
+	}
+	_putchar('\n')
+
 }
