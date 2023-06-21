@@ -1,16 +1,23 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - print_putchar, followed by new line
- * Return: 0
+ * main - Entry point
+ * Description : 'Prints _putchar to stdout'
+ * Returns: always 0
  */
 
-int main() {
-    char text[] = "_putchar\n";
-    int i = 0;
-    while (text[i] != '\0') {
-        write(1, &text[i], 1);
-        i++;
-    }
-    return 0;
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return 0
+
 }
