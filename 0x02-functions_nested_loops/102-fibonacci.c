@@ -17,7 +17,7 @@ int main(void)
 		while (c <= 50)
 		{
 		if (c == 50)
-		printf("%ld \n", next);
+		printf("%ld", next);
 		else
 		printf("%ld, ", next);
 		a = b;
