@@ -20,7 +20,7 @@ void print_numbers(void)
 		{
 			continue;
 		}
-		putchar(i + '0');
+		_putchar(i + '0');
 	}
-	putchar('\n');
+	_putchar('\n');
 }
