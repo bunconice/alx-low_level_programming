@@ -8,11 +8,11 @@
  */
 void print_line(int n)
 {
-	int i;
+	int i = n;
 
-	for (i = 0; i < n; i++)
+	for (i = n; i > 0; i--)
 	{
 		_putchar('_');
 	}
-	return (0);
+	_putchar('\n');
 }
