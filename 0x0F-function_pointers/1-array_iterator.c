@@ -3,10 +3,11 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - iterates through an array
- * @array: array of numbers
+ * array_iterator - execute function on an array through
+ * a funtion pointer
+ * @array: array
  * @size: size of the array
- * @action: prints elements of the array
+ * @action: pointer to function to be executed 
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
