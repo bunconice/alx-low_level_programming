@@ -1,26 +1,17 @@
 #include "main.h"
-
-#include "holberton.h"
-
 /**
- * clear_bit - clear bit to 0 at given index
- * @n: number
- * @index: index within binary number
- * Return: 1 if success, or -1 if error
- */
+* clear_bit - sets the value of a bit to  at a given index
+* @n: unsingned lng to append
+* @index: to change to zero
+* Return: return 1 if it work or -1 for error
+*
+*/
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int max_bits;
-	unsigned long int mask = 1;
-
-	/* validate index is not out of range */
-	max_bits = (sizeof(unsigned long int) * 8);
-	if (index > max_bits)
-		return (-1);
-
-	/* create mask with 0 at index (...11011...) to work on that index */
-	mask = ~(mask << index);
-	*n = (*n & mask);
-
-	return (1);
+int clear;
+if (index > 53 || !n)
+return (-1);
+clear = 1 << index;
+*n = (*n & ~clear) | ((0 << index) & clear);
+return (1);
 }
